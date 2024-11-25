@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HK's Hello Kitty Farm</title>
+    <title>Hello Kitty Farm</title>
     <style>
-        body { text-align: center; font-family: Arial, sans-serif; background-color: #fdf2f4; }
-        h1 { color: #ff69b4; }
-        p { color: #333; }
+        body { text-align: center; font-family: Arial; background-color: #fdf2f4; }
+        canvas { border: 2px solid #ff69b4; margin-top: 20px; }
     </style>
 </head>
 <body>
-    <h1>Welcome to Hello Kitty Farm</h1>
-    <p>Your adventure begins here!</p>
+    <h1>Welcome to HK's Hello Kitty Farm</h1>
+    <div id="game-container">
+        <p>Loading game...</p>
+    </div>
+    <script src="game.js"></script>
 </body>
 </html>
